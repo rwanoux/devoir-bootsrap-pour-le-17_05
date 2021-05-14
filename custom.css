@@ -1,0 +1,118 @@
+@font-face {
+    font-family: SCRIPTALT;
+    src: url(/fonts/SCRIPALT.ttf);
+}@font-face {
+    font-family: SCRIPTIN;
+    src: url(/fonts/SCRIPTIN.ttf);
+}
+@keyframes brightmove {
+    0% {
+      filter: brightness(100%) ;
+      background-position: 50% 50%;
+    }
+    25% {
+      filter: brightness(120%) ;
+      background-position: 46% 53%;
+
+    }
+    50% {
+        filter: brightness(120%) ;
+        background-position: 52% 64%;
+    }
+    75% {
+      filter: brightness(110%) ;
+      background-position: 44% 48%;
+
+    }
+    100% {
+      filter: brightness(100%) ;
+      background-position: 50% 50%;
+
+    }
+  }body{
+    overflow-x: hidden;
+}
+#header{
+    background:url(/assets/bg_montagne.jpg);
+    background-size: 150% auto;
+    color:white;
+    width:100vw;
+    min-height:30vh;
+    animation: brightmove 120s  infinite ;
+    text-shadow:0px 0px 5px rgba(0, 0, 139, 0.404);
+    margin-bottom: 40px;
+    
+
+}
+.handwritten{
+    font-family: SCRIPTIN;
+    font-weight: bold;
+    font-size:24px
+}
+#itemCards{
+    background:white;
+    box-shadow: 0px -60px 20px white;
+    width: 100vw;
+    z-index: 100;
+    position: relative;
+}
+#videoContainer{
+    position:relative;
+    left:-2%
+}
+#videoContainer>video{
+width:110vw;
+transform:scaleY(0.7)
+}
+#videoContainer i{
+    margin-top: 20px;
+    transition : all ease-in-out 0.1s
+}
+
+#videoContainer i:hover{
+    transform: scale(2);
+}
+#videoContainer i:active{
+    color:lightblue;
+}
+#videoContainer>.text-overlay{
+    position: absolute;
+   top:40%;
+   left:40%;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 15px black;
+    transition: ease-in-out all 0.2s;
+}
+#videoContainer span{
+    font-size:12px
+}
+#videoContainer .handwritten{
+font-size:30px}
+
+#testimonial img{
+    border-radius: 50%;
+}
+.userCard{
+    margin-top:2%;
+    box-shadow: 0px 0px 15px white;
+   
+    transition: all ease 0.6s;
+}
+.userCard:hover{
+    box-shadow: 0px 0px 15px rgb(107, 107, 107);
+    transform:scale(1.01)
+  
+}
+.relative{
+    position: relative;
+}
+.postDate{
+    position:absolute;
+    left:10%
+}
+footer{
+    background:rgba(124, 124, 124, 0.089);
+    padding:10px
+}
