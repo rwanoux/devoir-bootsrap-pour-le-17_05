@@ -1,9 +1,9 @@
 @font-face {
     font-family: SCRIPTALT;
-    src: url(/fonts/SCRIPALT.ttf);
+    src: url(fonts/SCRIPALT.ttf);
 }@font-face {
     font-family: SCRIPTIN;
-    src: url(/fonts/SCRIPTIN.ttf);
+    src: url(fonts/SCRIPTIN.ttf);
 }
 @keyframes brightmove {
     0% {
@@ -33,7 +33,7 @@
     overflow-x: hidden;
 }
 #header{
-    background:url(/assets/bg_montagne.jpg);
+    background:url(assets/bg_montagne.jpg);
     background-size: 150% auto;
     color:white;
     width:100vw;
